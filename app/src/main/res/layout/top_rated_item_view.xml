@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="150dp"
+    android:layout_height="225dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:id="@+id/topRatedLayout">
+
+
+    <androidx.cardview.widget.CardView
+
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_gravity="center"
+        app:cardCornerRadius="15dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/topratedImageViewID"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@color/green"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <TextView
+                android:id="@+id/topRatedRatingView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/white_box"
+                android:drawableEnd="@drawable/baseline_star_16"
+                android:drawableTint="@color/gold"
+                android:padding="5dp"
+                android:text=" 5.0"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+    <TextView
+        android:id="@+id/topRatedTitleView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="16dp"
+        android:text="Classic Margherita Pizza"/>
+
+    <TextView
+        android:id="@+id/topRatedTimeView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/grey"
+        android:layout_gravity="center"
+        android:textSize="12dp"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:drawablePadding="4dp"
+        android:drawableTint="@color/green"
+        android:drawableStart="@drawable/baseline_access_time_filled_14"
+        android:text="20 min"/>
+
+
+
+</LinearLayout>

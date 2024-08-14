@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Cook Mate</string>
+    <string name="MY_SHARED_PREFERNCE">cookMade</string>
+    <string name="IS_LOGGED">isLogged</string>
+    <string name="UID">uID</string>
+    <string name="USERNAME">username</string>
+</resources>
